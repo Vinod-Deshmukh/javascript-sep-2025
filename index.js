@@ -1,10 +1,14 @@
-let person = {
-  name: "Vinod",
-  age: 32,
-};
-console.log(person.name);
-person.name = "Deshmukh";
-console.log(person.name);
-console.log(person);
-person["age"] = 30;
-console.log(person.age);
+//Functions and Types of Functions
+function greet(name, lastName) {
+  //body of the function. contains logic of the function.
+  console.log("Hello " + name + " " + lastName);
+}
+// greet("vinod", "Deshmukh");
+// greet("Sunshine");
+
+//Calculating a value
+function square(number) {
+  return number * number;
+}
+
+console.log(square(2));
